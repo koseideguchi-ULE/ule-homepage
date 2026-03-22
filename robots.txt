@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://unlimitedenergy.co.jp/sitemap.xml
