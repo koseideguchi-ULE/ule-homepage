@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Artifacts (Antigravity brain folder)
+.gemini/
+
+# Documents
+*.pdf
+*.docx
+*.txt
+
+# Images (keep only logo)
+*.png
+!ロゴ1.png
+image.png
+シンせしー.png
+スクリーンショット*.png
