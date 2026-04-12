@@ -493,7 +493,8 @@ body {
     justify-content: space-between;
     align-items: center;
     display: flex;
-    padding: 80px 60px 40px;
+    padding: 120px 80px 80px;
+    min-height: 100vh;
 }
 
 .hero-image-style .hero-background {
@@ -506,7 +507,7 @@ body {
 
 .hero-image {
     flex: 0 0 auto;
-    max-width: 480px;
+    max-width: 580px;
     margin-right: 5%;
     position: relative;
     z-index: 10;
@@ -541,7 +542,7 @@ body {
 
 .hero-content-left {
     text-align: left;
-    max-width: 600px;
+    max-width: 700px;
     padding: 0 40px;
     margin-left: 10%;
 }
@@ -555,9 +556,9 @@ body {
     display: inline-block;
     background: var(--white);
     color: #1a1a1a;
-    font-size: 56px;
+    font-size: 72px;
     font-weight: 900;
-    padding: 20px 35px;
+    padding: 24px 44px;
     margin: 0;
     line-height: 1.1;
     letter-spacing: 2px;
@@ -579,9 +580,9 @@ body {
     display: inline-block;
     background: #1a1a1a;
     color: var(--white);
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 600;
-    padding: 14px 24px;
+    padding: 18px 32px;
     margin: 0;
     letter-spacing: 1px;
     animation: fadeInUp 0.8s ease 0.4s backwards;
@@ -635,8 +636,8 @@ body {
 
     .hero-subtitle-box p,
     .hero-message-box p {
-        font-size: 12px;
-        padding: 10px 16px;
+        font-size: 14px;
+        padding: 12px 18px;
     }
 }
 
@@ -1390,13 +1391,13 @@ body {
 
 /* What We Do Section */
 .what-we-do {
-    padding: 80px 0;
+    padding: 100px 0;
     background: var(--white);
 }
 
 .what-we-do-header {
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 70px;
 }
 
 .what-we-do-title {
@@ -1404,11 +1405,11 @@ body {
     font-weight: 700;
     color: var(--navy-primary);
     line-height: 1.5;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 }
 
 .what-we-do-subtitle {
-    font-size: 15px;
+    font-size: 16px;
     color: var(--gray-medium);
     line-height: 1.8;
 }
@@ -1417,7 +1418,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
     flex-wrap: wrap;
 }
 
@@ -1444,20 +1445,20 @@ body {
 .problem-bubbles {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 16px;
 }
 
 .problem-bubble {
     background: var(--white);
     border: 2px solid #d0d8e0;
     border-radius: 20px;
-    padding: 12px 20px;
+    padding: 16px 28px;
     position: relative;
-    font-size: 13px;
+    font-size: 15px;
     color: var(--navy-primary);
     font-weight: 500;
     text-align: center;
-    line-height: 1.4;
+    line-height: 1.5;
 }
 
 .problem-bubble::before {
@@ -1489,7 +1490,7 @@ body {
 
 .flow-arrow {
     color: var(--navy-primary);
-    font-size: 24px;
+    font-size: 32px;
     opacity: 0.6;
 }
 
@@ -1497,10 +1498,10 @@ body {
     background: var(--white);
     border: 2px solid #d0d8e0;
     color: #1a1a1a;
-    padding: 30px 25px;
+    padding: 40px 32px;
     border-radius: 12px;
     text-align: center;
-    min-width: 200px;
+    min-width: 240px;
 }
 
 .service-box-icon {
@@ -1509,13 +1510,13 @@ body {
 }
 
 .service-box-img {
-    width: 140px;
+    width: 160px;
     height: auto;
-    margin-bottom: 15px;
+    margin-bottom: 18px;
 }
 
 .service-box-title {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 1.5;
     margin-bottom: 8px;
@@ -1531,35 +1532,35 @@ body {
 .flow-benefits {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 16px;
 }
 
 .benefit-item {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 16px;
     background: var(--white);
     border: 1px solid #e0e0e0;
     border-radius: 8px;
-    padding: 14px 20px;
+    padding: 18px 24px;
 }
 
 .benefit-icon {
-    width: 24px;
-    height: 24px;
+    width: 28px;
+    height: 28px;
     background: var(--navy-primary);
     color: var(--white);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     flex-shrink: 0;
 }
 
 .benefit-item p {
-    font-size: 13px;
+    font-size: 15px;
     color: var(--navy-primary);
     font-weight: 500;
     line-height: 1.5;
